@@ -2,7 +2,7 @@ import edu.princeton.cs.algs4.Stopwatch;
 
 public class PercolationTester {
 
-    public static final int monteCarloTests = 100;
+    public static final int monteCarloTests = 100; //number of tests to take place
     public static final int ngrid = 20;
 
     public static void main(String[] args) {

@@ -26,7 +26,10 @@ ALL FILES:
     PercolationGraphics: Creates a graphical representation of the percolation problem using java swing. Because there
             is no rectangle object in swing, I used JButtons and changed the background color to the appropriate color.
             This worked but was not ideal. As well, it prints out the percolation threshold in the console for that
-            single Monte Carlo Simulation at the end.
+            single Monte Carlo Simulation at the end. This is a java swing file, so like the fraction graphics project,
+            you need to pull the corner out in order to get the graphics to show up. For larger numbers of the squares
+            (more than 10), the corner needs to be pulled out to the majority or the whole screen in order to see the
+            actual colors behind the JButtons.
 
     PercolationGraphics2: Graphical representation using stdDraw instead of java swing. Slightly easier to see the
             exact path the percolation occurs. As well, I slowed it down so that you can watch as each site is opened
